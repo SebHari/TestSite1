@@ -1,0 +1,122 @@
+body{
+	margin:0;
+        font-family: 'myfont';
+        background-color: #3F545C;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	display:flex;
+	justify-content:space-around;
+	background-color:#FCFAED;
+}
+
+li{
+	height:70px;
+	line-height:70px;
+	width:208px;
+	text-align:center;
+	color:white;
+}
+ul a{
+	display:block;
+	text-decoration:none;
+        color: #99B0B0;
+        
+}
+ul a:hover{
+	background-color: #99B0B0;
+        
+}
+
+@font-face{
+    font-family: "myfont";
+    src:url('../policies/modern_sans/Modern_Sans_Light.otf') format('truetype');
+}
+#logo-cesi{
+    height: 27.99px;
+    width: 160px;
+}
+#logicesi2{
+    width: 70px;
+    height: 70px;
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    height: 32px;
+}
+
+.header .header-content{
+    margin : 0 auto;
+    max-width: 1170px;
+    background-color: #ffffff;
+}
+
+.header-left{
+    height: 32px;
+    display: inline-block;
+}
+
+.logo-cesi{
+    display: inline-block;
+}
+
+.cesi-site{
+    background-color: #ffffff;
+    color: #171717;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1.2px;    
+}
+
+#page{
+    background-color: #ffffff;
+    
+}
+#lebord{
+    position: absolute;
+    right: 875px;
+}
+
+#accueil{
+    margin-top: 50px;
+}
+h1
+{
+    font-weight: bold;
+}
+#frise{
+    position: absolute;
+    top: 280px;
+}
+
+#card1{
+    margin-top: 50px;
+    position: absolute;
+    left: 425px;
+}
+
+#card2{
+    margin-top: 50px;
+    position: absolute;
+    left: 790px;
+}
+#card3{
+    margin-top: 50px;
+    position: absolute;
+    left: 1150px;
+}
+
+#imgsio{
+    height: 200px;
+    width: 200px;
+}
+
